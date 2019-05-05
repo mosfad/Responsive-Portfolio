@@ -1,0 +1,197 @@
+body{
+    background-image: url("../images/crossline-lines.png");
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#top-header{
+    background: #ffffff; /*this background is covering my Name!*/
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 2px solid #cccccc;
+}
+header{
+    display: inline-block;
+    background: #4aaaa5;
+    color: #ffffff;
+    margin-left: 258px;
+    padding: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+nav{
+    float: right;
+    overflow: hidden;  /*use this style to protect the header from being overwritten. Remove this style and watch your name disappear.*/
+    margin-right: 266px;
+    padding-top: 50px;
+    
+}
+
+#profile{
+    /*box-sizing: border-box;*/
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /*width: 20%*/
+    float: left;
+}
+ 
+
+#trial{
+    clear: both;
+}
+#title{
+    overflow: hidden;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+#content{
+    /*box-sizing: border-box;*/
+    display: inline;
+    /*width: 75%;*/
+    /*margin-left: 20px; -- styled profile and content ids to fit this elements side by side.*/
+    
+   
+}
+#main-content{
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+}
+
+p{
+    margin-top: 0 /*browser related clean up*/
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#clearStuff{
+    clear:both;
+}
+
+#bottom{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0;
+    margin-top: 60px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+h2{
+
+}
+
+
+#form-name, #form-email{
+    width: 100%;
+    height: 30%;
+}
+#form-message{
+    width: 100%;
+    height: 250px;
+}
+#form-submit{
+    width: 70px;
+    height: 35px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#folio_1, #folio_2, #folio_3{
+    display: inline-block;
+    width: 33%;
+   
+}
+
+#folio_one{
+    width:180px;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 60px;
+}
+
+#folio_two{
+    width:180px;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 60px;
+}
+
+#folio_2{
+    position: absolute;
+    top: 250px;
+}
+
+#folio_three{
+    width:180px;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 60px;
+}
+
+#folio_3{
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+
+#folio_four{
+    width:180px;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 60px;
+}
+
+#folio_4{
+    position: relative;
+    /*bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;*/
+   
+}
+
+#folio_five{
+    width:180px;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 60px;
+}
+
+#folio_5{
+    position: relative;
+    left: 315px;
+    bottom: 200px;
+}
