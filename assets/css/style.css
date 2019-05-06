@@ -190,6 +190,9 @@ h2{
     bottom: 60px;
 }
 
+hr{
+    margin: 10px;
+}
 #folio_5{
     position: relative;
     left: 315px;
@@ -211,7 +214,7 @@ h2{
         width: 540px;
         height: 150px;
         float: right;
-        margin: 0;
+        margin: 10;
     }
     #profile > img{
         height: 150px;
@@ -244,13 +247,14 @@ h2{
         margin: 0, auto;
         margin-top: 10px;
         margin-bottom: 10px;
+        padding: 0, 10px;
     }
     #content{
         overflow: auto;
         width: 380px;
         height: 250px;
         float: right;
-        margin: 0;
+        margin: 10px;
     }
     #profile > img{
         height: 220px;
@@ -279,22 +283,24 @@ h2{
   @media screen and (max-width: 640px) {
     #main-content{
         width: 500px;
-        height: 350px;
+        height: 1100px;
         margin: 0, auto;
         margin-top: 10px;
         margin-bottom: 10px;
+        padding: 25px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     #content{
         overflow: auto;
         width: 100%;
-        height: 50%;
+        height: 30%; 
         float: right;
-        margin: 0;
+        margin: 0, auto;
     }
     #profile > img{
-        height:50%;
-        width: 100%;
-        float: left;
+        height: 10%; /*changed the height of the image from 40% because it was occupying more than half of its container's height(div)*/
+        width: 100%; /*Are the percents in relation to the browser size, rather than its container size?*/
     }
     
     header{
